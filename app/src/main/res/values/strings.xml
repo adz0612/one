@@ -1,3 +1,29 @@
 <resources>
     <string name="app_name">Basic_Calc</string>
+
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Hey There !</string>
+    <string name="slide_1_desc">This app is the easiest way you can convert your text!</string>
+
+    <string name="slide_2_title">Convert text to :</string>
+    <string name="slide_2_desc">To binary ? We got it !!</string>
+
+    <string name="slide_3_title">SHHH!!</string>
+    <string name="slide_3_desc">To morse code ? We have that too! !</string>
+
+    <string name="slide_4_title">Thanks !</string>
+    <string name="slide_4_desc">Thanks a lot for downloading this app :)</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="large_text">
+
+        </string>
+    <string name="action_settings">Settings</string>
 </resources>
