@@ -8,11 +8,11 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/plusButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/button2"
-        android:layout_alignBottom="@+id/editText2"
+        android:layout_alignStart="@+id/minusButton"
+        android:layout_alignBottom="@+id/Num2"
         android:layout_marginStart="-1dp"
         android:layout_marginBottom="110dp"
         android:background="@drawable/round_text"
@@ -22,7 +22,7 @@
         tools:layout_editor_absoluteY="200dp" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/minusButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -37,7 +37,7 @@
         tools:layout_editor_absoluteY="305dp" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/Num1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -56,7 +56,7 @@ android:background="@drawable/round_button_3"
         tools:layout_editor_absoluteY="170dp" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/Num2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -76,7 +76,7 @@ android:textColor="#000000"
         tools:layout_editor_absoluteY="307dp" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/Result"
         android:layout_width="389dp"
         android:layout_height="112dp"
         android:layout_alignParentStart="true"
@@ -117,7 +117,7 @@ android:textColor="#000000"
         android:textSize="20dp" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/lastCalc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="#000000"
@@ -129,7 +129,7 @@ android:textColor="#000000"
         android:text="//Latest Calc will show up here" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/clearButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"

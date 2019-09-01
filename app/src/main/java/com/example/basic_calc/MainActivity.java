@@ -22,19 +22,19 @@ private EditText num1 , num2;
 
 
 
-        final Button plus = (findViewById(R.id.button));
-        Button minus = (findViewById(R.id.button2));
-       final TextView lastCalc = (findViewById(R.id.textView3));
+        final Button plus = (findViewById(R.id.plusButton));
+        Button minus = (findViewById(R.id.minusButton));
+       final TextView lastCalc = (findViewById(R.id.lastCalc));
 
 
-        num1 = (findViewById(R.id.editText));
-        num2 = (findViewById(R.id.editText2));
+        num1 = (findViewById(R.id.Num1));
+        num2 = (findViewById(R.id.Num2));
 
       //  final TextView result = (findViewById(R.id.textView));
-        final  TextView disp_res = (findViewById(R.id.textView2));
+        final  TextView dispRes = (findViewById(R.id.Result));
 
 
-        Button clear = findViewById(R.id.button3);
+        Button clear = findViewById(R.id.clearButton);
 
         clear.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -42,7 +42,7 @@ private EditText num1 , num2;
 
                 num1.setText("");
                 num2.setText("");
-                disp_res.setText("");
+                dispRes.setText("");
 
             }
         });
@@ -77,7 +77,7 @@ private EditText num1 , num2;
             a = Float.parseFloat(num1_string);
             b = Float.parseFloat(num2_string);
             sum = a + b;
-            disp_res.setText("The sum of the numbers is:\n"+sum);
+            dispRes.setText("The sum of the numbers is:\n"+sum);
            // result.setText("The sum of the numbers is: ");
             lastCalc.setText("Your last Calculation was:\n  " + ""+a +" + " + ""+b +" = " +sum );
 
@@ -108,7 +108,7 @@ private EditText num1 , num2;
                 minus = a - b;
 
 
-                disp_res.setText("The diff ( a - b ) of the numbers is:  \n"+minus);
+                dispRes.setText("The diff ( a - b ) of the numbers is:  \n"+minus);
                 //result.setText("The diff of the numbers is: ");
 
 
