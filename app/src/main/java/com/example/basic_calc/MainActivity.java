@@ -77,7 +77,7 @@ private EditText num1 , num2;
             a = Float.parseFloat(num1_string);
             b = Float.parseFloat(num2_string);
             sum = a + b;
-            disp_res.setText("The sum of the numbers is: \n\n"+sum);
+            disp_res.setText("The sum of the numbers ( a + b ) is: \n"+sum);
            // result.setText("The sum of the numbers is: ");
             lastCalc.setText("Your last Calculation was:\n  " + ""+a +" + " + ""+b +" = " +sum );
 
@@ -108,7 +108,7 @@ private EditText num1 , num2;
                 minus = a - b;
 
 
-                disp_res.setText("The diff of the numbers is:  \n\n"+minus);
+                disp_res.setText("The diff ( a - b ) of the numbers is:  \n\n"+minus);
                 //result.setText("The diff of the numbers is: ");
 
 

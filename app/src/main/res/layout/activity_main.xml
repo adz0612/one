@@ -50,7 +50,7 @@ android:background="@drawable/round_button_3"
         android:ems="10"
         android:textColor="#000000"
         android:maxLength="10"
-        android:hint="Enter Number here..."
+        android:hint="Enter Number (a) here..."
         android:inputType="numberDecimal"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="170dp" />
@@ -70,7 +70,7 @@ android:textColor="#000000"
         android:ems="10"
         android:maxLength="10"
 
-        android:hint="Enter Number here..."
+        android:hint="Enter Number(b) here..."
         android:inputType="numberDecimal"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="307dp" />
