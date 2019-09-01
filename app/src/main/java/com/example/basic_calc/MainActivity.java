@@ -1,6 +1,7 @@
 package com.example.basic_calc;
 
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -65,7 +66,9 @@ private EditText num1 , num2;
 
             if (num1_string.isEmpty() ||  num2_string.isEmpty()  ){
 
-                Toast.makeText(getApplicationContext() , "Please type in both the numbers " , Toast.LENGTH_SHORT).show();
+                Toast toast = Toast.makeText(MainActivity.this,"Please Enter both the numbers", Toast.LENGTH_SHORT);
+                toast.setGravity(Gravity.CENTER, 0, 0);
+                toast.show();
                 return;
 
             }
@@ -93,7 +96,9 @@ private EditText num1 , num2;
 
                 if (num1_string.isEmpty() ||  num2_string.isEmpty()  ){
 
-                    Toast.makeText(getApplicationContext() , "Please type in both the numbers " , Toast.LENGTH_SHORT).show();
+                    Toast toast = Toast.makeText(MainActivity.this,"Please Enter both the numbers", Toast.LENGTH_SHORT);
+                    toast.setGravity(Gravity.CENTER, 0, 0);
+                    toast.show();
                     return;
 
                 }
